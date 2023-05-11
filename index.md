@@ -3,7 +3,7 @@ title: Nick Driscoll's 3D graphics programming blog
 layout: default.liquid
 ---
 
-[Portfolio]({{ site.base_url }}/portfolio.html)
+[My Portfolio]({{ site.base_url }}/portfolio.html)
 
 ---
 

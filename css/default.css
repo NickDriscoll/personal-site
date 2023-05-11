@@ -1,10 +1,18 @@
 .project-title {
 	text-align: center;
+	font-size: 24pt;
+}
 
+.site-header * {
+	display: inline !important;
 }
 
 html {
-	background-image: url("/images/sunset.png")		
+	background-image: url("/images/sunset.png");
+	background-size: 2000px;
+	background-attachment: fixed;
+	background-color: #9E3816;
+	background-position: -500px;
 }
 
 div {
