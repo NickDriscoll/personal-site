@@ -4,7 +4,8 @@
 }
 
 .site-header * {
-	display: inline !important;
+	display: inline;
+	border-radius: 50%;
 }
 
 html {

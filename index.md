@@ -42,7 +42,9 @@ layout: default.liquid
 ---
 
 ## Referenced image test
-![The GOAT](https://product-images.tcgplayer.com/fit-in/421x421/174406.jpg)
+<a href="{{site.base_url}}/scapegoat.html">
+    <img src="https://product-images.tcgplayer.com/fit-in/421x421/174406.jpg" />
+</a>
 
 ## All current site pages:
 
