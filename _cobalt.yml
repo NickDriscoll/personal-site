@@ -2,7 +2,7 @@
 site:
   title: Nick's blog
   description: Nick Driscoll's programming blog
-  base_url: http://example.com
+  base_url: https://nickdriscoll.github.io/
 posts:
   rss: rss.xml
   
