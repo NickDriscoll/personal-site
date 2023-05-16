@@ -37,7 +37,7 @@ Beginning in February of 2022, I began to take an interest in low-level GPU prog
 	</a>
 </div>
 
-After my initial brush with 3D graphics programming, I decided that I would try to make an entire VR game from scratch. The idea is that you would have a variety of gadgets that would modify your movement and would also serve a double purpose as weapons to help you stun and collect the main objects of the game, the Totoros that run around. This was very much a VR reimagining of <a>Ape Escape</a>.
+After my initial brush with 3D graphics programming, I decided that I would try to make an entire VR game from scratch. The idea is that you would have a variety of gadgets that would modify your movement and would also serve a double purpose as weapons to help you stun and collect the main objects of the game, the Totoros that run around. This was very much a VR reimagining of <a href="https://www.youtube.com/watch?v=ZEIhcE6VpuM&t=4s&pp=ygUOYXBlIGVzY2FwZSB0YXM%3D">Ape Escape</a>.
 
 The game is writting in Rust using the OpenGL API for 3D graphics with the following rendering features:
 
@@ -59,7 +59,7 @@ The game is writting in Rust using the OpenGL API for 3D graphics with the follo
 	</a>
 </div>
 
-This was my first ever attempting at learning 3D graphics programming. It's just a bunch of instanced trees, grass billboards, a ground plane modified by a noise function, horrible shadow mapping, and a cubemap skybox. It also even integrates the OpenVR API for VR support. I'm proud of what I was able to accomplish while knowing so little.
+This was my first ever attempting at learning 3D graphics programming. It's just a bunch of instanced trees, grass billboards, a ground plane modified by a noise function, horrible shadow mapping, and a cubemap skybox. It also even integrates the OpenVR API for VR support, which is fun. I'm proud of what I was able to accomplish while knowing so little.
 
 The program was written in Rust with the OpenGL API
 
