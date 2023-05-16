@@ -4,9 +4,7 @@ layout: default.liquid
 permalink: /portfolio.html
 ---
 
-Below are the various graphics programming projects I have worked on:
 
----
 <div class="header">
 	<div class="top-row">
 		<div class="logo-wrapper">
@@ -20,9 +18,9 @@ Below are the various graphics programming projects I have worked on:
 	<div class="hero">
 		<div class="hero-img-wrapper">
 			<div class="persona-title-wrapper accent-font">
-				<div>3D</div>
-				<div class="blue-text">GRAPHICS</div>
-				<div>PROGRAMMER</div>
+				<div class="persona-1">3D</div>
+				<div class="persona-2">GRAPHICS</div>
+				<div class="persona-3">PROGRAMMER</div>
 			</div>
 		</div>
 		<img class="down-arrow" src="images/angle-down-solid.svg"/>
@@ -49,11 +47,11 @@ Below are the various graphics programming projects I have worked on:
 		<li>Simultaneous rendering of multiple frames</li>
 	</ul>
 	<div class="slide-show">
-		<img class="slide" src="/images/vk2.png"/>
-		<img class="slide hide" src="/images/vk1.png"/>
+		<img class="slide" src="/images/vk2.jpg"/>
+		<img class="slide hide" src="/images/vk1.jpg"/>
 		<div class="buttons-wrapper">
-			<span class="arrow left-arrow">&larr;</span>
-			<span class="arrow right-arrow">&rarr;</span>
+			<span class="arrow left-arrow"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></span>
+			<span class="arrow right-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
 		</div>
 	</div>
 </div>
@@ -74,11 +72,11 @@ Below are the various graphics programming projects I have worked on:
 	</ul>
 	<div class="slide-show">
 		<iframe class="slide" src="https://www.youtube.com/embed/6HBJdzkKTQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		<image class="slide hide" src="/images/vr1.png"></image>
+		<image class="slide hide" src="/images/vr1.jpg"></image>
 		<image class="slide hide" src="/images/vr2.gif"></image>
 		<div class="buttons-wrapper">
-			<span class="arrow left-arrow">&larr;</span>
-			<span class="arrow right-arrow">&rarr;</span>
+			<span class="arrow left-arrow"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></span>
+			<span class="arrow right-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
 		</div>
 	</div>
 </div>
@@ -93,12 +91,12 @@ Below are the various graphics programming projects I have worked on:
 <div class="project-content-wrapper no-list">
 	<div class="slide-show">
 		<iframe src="https://www.youtube.com/embed/0_sz0D57apQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		<image class="slide" src="/images/model1.png"></image>
-		<image class="slide hide" src="/images/model2.png"></image>
-		<image class="slide hide" src="/images/model3.png"></image>
+		<image class="slide" src="/images/model1.jpg"></image>
+		<image class="slide hide" src="/images/model2.jpg"></image>
+		<image class="slide hide" src="/images/model3.jpg"></image>
 		<div class="buttons-wrapper">
-			<span class="arrow left-arrow">&larr;</span>
-			<span class="arrow right-arrow">&rarr;</span>
+			<span class="arrow left-arrow"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></span>
+			<span class="arrow right-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
 		</div>
 	</div>
 </div>
@@ -113,3 +111,4 @@ Below are the various graphics programming projects I have worked on:
 		</div>
 	</div>
 </div>
+<button class="theme-toggle"><i class="hide dark-mode-on fa fa-moon-o" aria-hidden="true"></i><i class="light-mode-on fa fa-sun-o" aria-hidden="true"></i></button>
