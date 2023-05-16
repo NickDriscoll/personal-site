@@ -1,20 +1,4 @@
 const slideShows = document.querySelectorAll(".slide-show");
-// console.log(slideShows);
-
-
-// document.querySelectorAll(".left-arrow").forEach((leftArrow) => {
-//     console.log(leftArrow);
-//     leftArrow.addEventListener("click", (event)=>{
-//         console.log("move left");
-//     });
-// });
-
-// document.querySelectorAll(".right-arrow").forEach((leftArrow) => {
-//     console.log(leftArrow);
-//     leftArrow.addEventListener("click", (event)=>{
-//         console.log("right left");
-//     });
-// });
 
 slideShows.forEach((slideShow) => {
     const slides = slideShow.querySelectorAll(".slide");
@@ -32,9 +16,6 @@ slideShows.forEach((slideShow) => {
 
         moveSlide(slides, current);
     });
-    // console.log(slides);
-    // console.log(leftArrow);
-    // console.log(rightArrow);
 })
 
 const moveSlide = (slides, current) => {
